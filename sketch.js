@@ -18,7 +18,7 @@ function setup(){
   createCanvas(800,800);
 
   player1 = createSprite(100,250,10,10);
-  player1.shapeColor = "red";
+  player1.shapeColor = "RED";
   player1.addAnimation("walking",p1animation);
   p1animation.frameDelay = 200
   player1.scale = 0.5
@@ -241,8 +241,8 @@ function readScore2(data2){
 
 
 function draw1(){
-  for(var i = 0; i<800; i=i+20){
-    line (400,i,400,i+10)
+  for(var num = 0; num<800; num=num+20){
+    line (400,num,400,num+10)
   }
 }
 
